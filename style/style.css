@@ -1,0 +1,106 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  background: #0d192b;
+}
+
+body .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #14253d;
+  border-radius: 12px;
+  border: 20px solid #14253d;
+  width: 275px;
+  font-size: 18px;
+  color: #8bacda;
+}
+
+body .card .card-image {
+  border-radius: 12px;
+  width: 275px;
+  height: 275px;
+  background: #00fff8;
+  background-image: url(/images/favicon-32x32.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body .card .card-image .card-image-image {
+  border-radius: 12px;
+  width: 275px;
+  height: 275px;
+}
+
+body .card .card-image .card-image-image:hover {
+  opacity: 0.3;
+}
+
+body .card .card-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+body .card .card-description {
+  margin-top: 10px;
+  color: #697d9c;
+}
+
+body .card .card-priceduration {
+  margin-top: 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .card .card-priceduration .card-priceduration-price {
+  color: #00fff8;
+}
+
+body .card .card-priceduration .card-priceduration-duration {
+  color: #8bacd9;
+}
+
+body .card hr {
+  color: white;
+}
+
+body .card .card-author {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .card .card-author .card-author-image {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+body .card .hover:hover {
+  color: #00fff8;
+}
+
+body .card a {
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+}
+/*# sourceMappingURL=style.css.map */
