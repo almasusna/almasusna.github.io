@@ -1,0 +1,85 @@
+body {
+  background: hsl(217, 54%, 11%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  border: 20px solid hsl(216, 50%, 16%);
+  width: 275px;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-image-image {
+  border-radius: 12px;
+  width: 275px;
+  height: 275px;
+}
+.card-image-image:hover {
+  background-image: url(/images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hsla(178, 100%, 50%, 0.9);
+}
+.card-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.card-description {
+  margin-top: 10px;
+  color: #697d9c;
+}
+
+.card-priceduration {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.card-priceduration-price {
+  color: #00fff8;
+}
+
+.card-priceduration-duration {
+  color: #8bacd9;
+}
+
+hr {
+  color: hsl(0, 0%, 100%);
+}
+.card-author {
+  position: relative;
+  display: flex;
+}
+
+.card-author-image {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.hover:hover {
+  color: #00fff8;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+}
